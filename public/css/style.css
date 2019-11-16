@@ -3,3 +3,24 @@
   width: 50%;
   padding-left: 1em;
 }
+
+body {
+  background-color: teal;
+}
+
+h1 {
+  color: white;
+}
+.collection-item {
+  background-color: teal !important;
+  border-bottom: 1px solid black !important;
+}
+
+.collection {
+  border: 1px solid black !important;
+}
+
+.material-icons:hover {
+  color: red !important;
+  cursor: pointer;
+}

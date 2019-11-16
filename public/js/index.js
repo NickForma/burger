@@ -36,7 +36,7 @@ $(document).ready(function() {
         $burgerList.append(`
 			<li class="collection-item">
 			  <span>${burger.burger_name}</span>
-			  <button style="color: red; font-size: 14px;" class="material-icons devour" data-burgerID=${burger.id}>clear</button>
+			  <i style="color: orange; font-size: 14px; margin-left: 20px;" class="material-icons devour" data-burgerID=${burger.id}>highlight_off DEVOUR ME</i>
 
 			</li>`);
       }
